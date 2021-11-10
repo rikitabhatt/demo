@@ -1,0 +1,161 @@
+
+.card-header h4 {
+    text-transform: capitalize !important;
+}
+label.error {
+    color: #fb0021 !important;
+    font-size: 12px;
+}
+.form-group-flex,div#dynamic_field {
+    display: flex;
+    align-content: flex-start;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.field_wrapper {
+    width: calc(100% - 70px) !important;
+    height: 50px;
+}
+.form-group-flex .btn, div#dynamic_field .btn {
+    height: calc(2em + 0.75rem + 2px);
+    min-width: 50px;
+}
+.select_field_wrapper{
+    width: calc(100% - 70px) !important;
+}
+.btn_remove{
+    height: calc(2em + 0.75rem + 2px);
+    min-width: 50px;
+}
+.margin-right-10{
+    margin-right :10px !important;
+}
+.margin-right-20{
+    margin-right :20px !important;
+}
+.margin-left-10{
+    margin-left :10px !important;
+}
+.margin-left-20{
+    margin-left :20px !important;
+}
+.form-group sup{
+    color:rgb(204, 0, 0) !important;
+}
+
+.bottom-error {
+    position: absolute;
+    bottom: -15px;
+    left: 73px;
+}
+.radio-group {
+    margin-bottom: 10px;
+    position: relative;
+}
+table.dataTable thead .sorting:after, table.dataTable thead .sorting_asc:after, table.dataTable thead .sorting_desc:after, table.dataTable thead .sorting_asc_disabled:after, table.dataTable thead .sorting_desc_disabled:after
+{
+    display: none !important;
+}
+span.warning-info {
+    font-size: 12px;
+    padding-left: 9px;
+}
+span.red-text {
+    color: rgb(204, 0, 0) !important;
+}
+.mt-10
+{
+    margin-top: 10px;
+}
+.mt-15
+{
+    margin-top: 15px;
+}
+.mt-20
+{
+    margin-top: 15px;
+}
+.custom-table {
+    border: 0;
+}
+/* for prodcuts add edit image upload -css - START */
+input[type="file"] {
+    display: block;
+  }
+  .imageThumb {
+    max-height: 75px;
+    border: 2px solid;
+    padding: 1px;
+    cursor: pointer;
+  }
+  .pip {
+    display: inline-block;
+    margin: 10px 10px 0 0;
+  }
+  .pip_old {
+    display: inline-block;
+    margin: 10px 10px 0 0;
+  }
+  .remove {
+    display: block;
+    background: #444;
+    border: 1px solid black;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+  }
+  .remove:hover {
+    background: white;
+    color: black;
+  }
+/* for prodcuts add edit image upload -css - END */
+/* products tabs -css -START */
+ul.tab-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul.tab-list li {
+    display: inline-block;
+     margin-bottom: 20px;
+     float: left;
+}
+ul.tab-list li a {
+    background: #59a748;
+    color: #fff;
+    padding: 6px 20px 8px;
+    display: block;
+    position: relative;
+    text-decoration: none;
+}
+ul.tab-list li a:hover {
+    background:rgb(110, 104, 104);
+   }
+ul.tab-list li a.active {
+ background:#555;
+}
+.clear {
+    clear: both;
+}
+ul.tab-list li a.active::after {
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 14px solid #555;
+    content: "";
+    position: absolute;
+    right: 3px;
+    bottom: -10px;
+}
+/* products tabs -css -END */
+
+.chktxt img {
+    width: 50% !important;
+}
+.card-flex-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row nowrap;
+}
+

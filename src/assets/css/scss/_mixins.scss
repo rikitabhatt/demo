@@ -1,0 +1,22 @@
+@mixin transition($property) {
+  -webkit-transition: $property !important;
+  -ms-transition: $property !important;
+  transition: $property !important;
+  -moz-transition: $property !important;
+  -o-transition: $property !important;
+}
+@mixin animation($property1) {
+  -webkit-animation: $property1 !important;
+  animation: $property1 !important;
+}
+@mixin transform($property2) {
+  -webkit-transform: $property2;
+  -ms-transform: $property2;
+  transform: $property2;
+}
+@mixin parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
